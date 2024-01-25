@@ -1,7 +1,13 @@
+import Header from "./components/Header/Header";
+import Main from "./components/Main";
+import "./App.css";
+
 const App = () => {
   return (
-    <div>
-      <h1>Making the App</h1>
+    <div className="app">
+      <Header />
+
+      <Main />
     </div>
   );
 };
