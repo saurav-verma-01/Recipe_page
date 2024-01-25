@@ -1,4 +1,52 @@
-.app {
+.header {
+  max-width: 46rem;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.header img {
   width: 100%;
-  background-color: var(--light-pink);
+}
+
+@media (min-width: 46em) {
+  .header {
+    padding: 2.5rem;
+    padding-bottom: 0;
+  }
+  .header img {
+    border-radius: 0.75rem;
+  }
+}
+
+main {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 46rem;
+  padding: 2rem;
+  background-color: aqua;
+}
+.box-1 {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background: var(--rose-white);
+  margin-block: 2rem;
+}
+
+.box-title {
+  color: var(--dark-raspberry);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.box-list {
+  color: var(--wenge-brown);
+}
+.box-list li {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.box-list strong {
+  font-weight: 700;
 }
