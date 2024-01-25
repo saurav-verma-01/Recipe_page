@@ -1,11 +1,4 @@
 .app {
   width: 100%;
-  min-height: 100vh;
-  background-color: #f3e5d7;
-}
-
-@media (min-width: 41em) {
-  .app {
-    padding: 2.5rem;
-  }
+  background-color: var(--light-pink);
 }

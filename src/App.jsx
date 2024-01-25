@@ -1,13 +1,11 @@
-import Header from "./components/Header/Header";
-import Main from "./components/Main";
 import "./App.css";
+import Banner from "./components/Banner/Banner";
 
 const App = () => {
   return (
     <div className="app">
-      <Header />
-
-      <Main />
+      <Banner />
+      <h2>Body</h2>
     </div>
   );
 };

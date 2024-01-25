@@ -1,3 +1,7 @@
+:root {
+  --light-pink: #f3e5d7;
+}
+
 *,
 *::after,
 *::before {
@@ -6,9 +10,5 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 100%;
-  min-width: 24rem;
-  max-width: 46rem;
-  padding: 2.5rem 2rem;
+.app {
 }
