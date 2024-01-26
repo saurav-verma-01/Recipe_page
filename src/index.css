@@ -39,7 +39,7 @@ body {
 
 @media (min-width: 46em) {
   body {
-    padding: 7.2rem;
+    padding-block: 7.2rem;
   }
   .container {
     border-radius: 1.5rem;
@@ -105,6 +105,13 @@ ul {
   border-bottom: 1px solid var(--white-coffee);
 }
 
+.nutrition-box {
+  padding: 2rem 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 .num,
 .dot {
   font-size: 1rem;
@@ -124,13 +131,6 @@ ul {
 
 .num-list li {
   align-items: flex-start;
-}
-
-.nutrition-box {
-  padding: 2rem 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
 }
 
 .nutrition-div {
